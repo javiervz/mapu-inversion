@@ -48,7 +48,7 @@ inversion(verbo, persona_sujeto, numero, polaridad, persona_objeto)
 
 verbo = st.text_input('verbo:', 'leli')
 persona_sujeto = st.selectbox('¿Cuál es la persona sujeto?', ['primera', 'segunda', 'tercera'], index=0)
-persona_objeto = st.selectbox('¿Cuál es la persona del objeto?', ['primera', 'segunda', 'tercera'], index=0)
+persona_objeto = st.selectbox('¿Cuál es la persona del objeto?', ['tercera'], index=0)
 numero = st.selectbox('¿Cuántos participan en el sujeto? (número)', ['singular', 'dual', 'plural'], index=0)
 polaridad = st.selectbox('polaridad', ['positiva','negativa'], index=1)
 
