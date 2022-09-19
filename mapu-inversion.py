@@ -3,6 +3,14 @@ st.title('Experimentos con inversión en mapudungun')
 
 # página 116 del [libro de Zúñiga](https://www.cepchile.cl/cep/site/docs/20160304/20160304094227/libro_Mapudungun_Fernando-Zuniga.pdf)
 
+## polaridad
+
+def sufijo_polaridad(polaridad):
+    if polaridad == 'positiva':
+        return ''
+    else:
+        return 'la'
+
 ## sufijos de inversión
 
 def sufijo_inversion(persona_sujeto,persona_objeto):
