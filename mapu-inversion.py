@@ -32,7 +32,7 @@ indicativo_persona_inv_primera_segunda['segunda'] = {'tercera':{'singular':'mi',
 indicativo_persona_inv_tercera = {}
 ##
 indicativo_persona_inv_tercera['primera'] = {'singular':'n', 'dual':'yu', 'plural':'iñ'}
-indicativo_persona_inv_tercera['segunda'] = {'singular':'y', 'dual':'ymu', 'plural':'ymün'}}
+indicativo_persona_inv_tercera['segunda'] = {'singular':'y', 'dual':'ymu', 'plural':'ymün'}
 
 ## morfemas de inversión
 
